@@ -43,3 +43,11 @@ group :development, :test do
   gem 'spring'
 end
 
+group :test do
+  gem 'rspec-rails', '~> 3.4', '>= 3.4.2'
+end
+
+gem 'haml',     '~> 4.0', '>= 4.0.7'
+gem 'pg',       '~> 0.18.4'
+gem 'hirb',     '~> 0.7.3'
+gem 'annotate', '~> 2.7'
